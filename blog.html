@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav class="nav">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu();"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="course.html">COURSE</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu();"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2023</h1>
+    </section>
+
+    <!-- Blog Page Content Start -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="Certificate">
+                <h2>Our Certificate & Online Programs for 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quisquam consectetur nulla adipisci libero quasi, deleniti omnis id eius eveniet, quaerat pariatur iste dolores neque nostrum iure corrupti perferendis non.</p>
+                <br/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, nesciunt? Explicabo est magni eaque illum laudantium harum rerum, labore, laborum assumenda ex tempora iste? Est labore aliquam accusamus aliquid modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure eveniet aspernatur deserunt culpa expedita, obcaecati illo asperiores incidunt consectetur corporis. Veritatis nostrum dolor minima quibusdam consequatur magnam fugit facere illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam porro exercitationem voluptatum libero quasi velit doloribus expedita, reiciendis temporibus, illo dolorem impedit aliquam perferendis. Odit illo deleniti optio explicabo autem.</p>
+                <br/>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora accusantium reiciendis illum praesentium eum deleniti error nisi dolor, veritatis sit voluptate beatae voluptates corrupti sed rerum sequi veniam amet distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, cupiditate aspernatur quaerat alias ad iusto omnis aliquam ea eveniet enim harum a minus illum, rem molestias labore nulla natus! Amet.</p>
+                <br/>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas similique magnam voluptate autem harum, repudiandae ipsum error mollitia nostrum hic ad perferendis amet velit eos ipsa itaque! Maxime, nisi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat assumenda quod ab architecto impedit veniam dolor porro et delectus.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" name="name" placeholder="Enter Name">
+                        <input type="email" name="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Page Content End -->
+   
+    <!-- Footer Start -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt animi sunt placeat non nam enim minima dolorem neque harum? Distinctio dolorum <br/> numquam corporis magnam facilis id ut temporibus molestias tenetur.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+    <!-- Footer End -->
+    
+
+<!-- JS for toggle menu -->
+<script>
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu() {
+        navLinks.style.right = '-200px';
+    }
+</script>
+</body>
+</html>
